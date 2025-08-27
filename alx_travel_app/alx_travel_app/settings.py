@@ -14,6 +14,9 @@ from pathlib import Path
 import environ
 import os
 
+# Add the project root to the Python path
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'alx_travel_app.settings')
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -62,6 +65,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+#ROOT_URLCONF = 'alx_travel_app.alx_travel_app.urls'
 ROOT_URLCONF = 'alx_travel_app.urls'
 
 TEMPLATES = [
