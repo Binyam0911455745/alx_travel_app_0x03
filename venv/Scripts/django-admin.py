@@ -1,4 +1,4 @@
-#!c:\users\user\alx_travel_app_0x01\venv\scripts\python.exe
+#!c:\users\user\alx_travel_app_0x03\venv\scripts\python.exe
 # When the django-admin.py deprecation ends, remove this script.
 import warnings
 
